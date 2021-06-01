@@ -11,3 +11,6 @@ junit.xml
 test_elasticsearch_dsl/htmlcov
 docs/_build
 .cache
+__pycache__
+.eggs
+.pytest_cache

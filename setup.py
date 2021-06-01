@@ -14,7 +14,7 @@ f.close()
 install_requires = [
     'six',
     'python-dateutil',
-    'elasticsearch>=2.0.0,<3.0.0'
+    'elasticsearch2>=2.0.0,<3.0.0'
 ]
 tests_require = [
     "mock",
@@ -28,10 +28,10 @@ if sys.version_info[:2] == (2, 6):
     tests_require.append('unittest2')
 
 setup(
-    name = "elasticsearch-dsl",
-    description = "Python client for Elasticsearch",
+    name = "elasticsearch2-dsl",
+    description = "Python client for Elasticsearch 2",
     license="Apache License, Version 2.0",
-    url = "https://github.com/elasticsearch/elasticsearch-dsl-py",
+    url = "https://github.com/potasiak/elasticsearch-dsl-py",
     long_description = long_description,
     version = __versionstr__,
     author = "Honza Král",
